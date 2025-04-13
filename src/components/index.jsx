@@ -4,16 +4,16 @@ const ExpensesComponent = () => {
   const [expenses, setExpenses] = useState([
     {
       id: 1,
-      name: "Light Mukambo",
-      description: "Wednesday's Lunch",
+      name: "Food Stuff",
+      description: "This week Food",
       category: "food",
       amount: 100,
       date: "2025-04-08",
     },
     {
       id: 2,
-      name: "NYC Buses",
-      description: "power token",
+      name: "Bus Fare",
+      description: "Transport to and fro",
       category: "utilities",
       amount: 2000,
       date: "2025-04-05",
